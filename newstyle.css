@@ -1,0 +1,264 @@
+body {
+     
+      background-image: url("images/paint13.png");
+  background-color: #cccccc;
+  padding: 0;
+  margin-left: 25px;
+  margin-right: 25px;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Roboto';
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: gray;
+  color: white;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  background-color: #FFFFFF;
+  color: black;
+  font-size: 72px;
+  -webkit-text-stroke: 2px black; 
+
+  width: 600px;
+  height: 90px;
+  padding: 12px;
+
+    font-family: sans-serif; color: black; 
+    font-style: italic;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#linked {
+  position: absolute;
+  background-color: floralwhite;
+  font-size: 25px;
+  text-align: center;
+  -webkit-text-stroke: unset 
+
+
+  width: 250px;
+  height:80px;
+  padding: 10px;
+
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-style: normal;
+
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: "sans-serif"cursive;
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline ;
+
+}
+
+h2 {
+  background-color: lightgrey;
+     width: 400%;
+  border: 2px solid darkgray;
+  padding: 10px;
+  font-size: 30px;
+  font-family: "sans-serif"cursive;
+   color: black;
+   font-style: italic;
+ }
+
+   
+
+h3 {
+     background-color: lightgrey;
+     width: 98%;
+  border: 2px solid darkgray;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "sans-serif"cursive;
+   color: black; 
+   font-style: italic;
+}
+
+
+h4 {
+     background-color: unset;
+  font-size: 20px;
+  font-family: "sans-serif"cursive;
+   color: black;
+   text-align: center;
+   background-color: whitesmoke;
+   margin: 20px;
+   border: 20px solid whitesmoke;
+
+}
+
+h5 {
+  background-color: unset;
+     width: 100%;
+  border: 20px lightgrey;
+  text-align: center;
+  font-size: 20px;
+  font-family: "sans-serif"cursive;
+   color: brown;
+}
+
+
+#type {
+     background: unset;
+     display: table-cell;
+     text-align: center;
+
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.column {
+  float: left;
+  width: 32.9%;
+  padding: 1px;
+  margin-left: 2px;
+  margin-right: 1px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+table, td, th {
+  border: 1px solid black;}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: brown;
+  color: white;
+  height: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+tr:hover { background-color: rosybrown; }
+
+td { text-align: center; 
+  height: 50px;
+  vertical-align: middle; }
+
+
+
+#list {
+  background-color: beige;
+     width: 98%;
+  border: unset;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "sans-serif"cursive;
+   color: black;
+   font-style: initial;
+
+}
+
+#style1 {
+  background-color: white;
+  width: 649px;
+  height: 288px;
+  float: right;
+  text-align: center;
+  font-size: 20px;
+}
+
+#style2 {
+  background-color: white;
+  width: 649px;
+  height: 288px;
+  float: right;
+  text-align: center;
+  font-size: 20px;
+}
+
+#name {
+  background-color: white;
+  width: 1300px;
+  height: 210px;
+  text-align: left;
+  font-size: 17px;
+}
+
+.form {
+  background-color: white;
+  width: 540px;
+  float: left;
+  border: 15px solid brown;
+  padding: 5px;
+  margin: 15px;
+  height: 150px;
+}
+
+#follow {
+  background-color: floralwhite;
+  width: 540px;
+  float: right;
+  border: 15px solid brown;
+  padding: 5px;
+  margin: 15px;
+  height: 150px;
+}
